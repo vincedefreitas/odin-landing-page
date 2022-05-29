@@ -76,4 +76,65 @@ button {
     background-color: #747e8b;
 }
 
+/* End of section one */
 
+.section-two {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 18px;
+}
+
+h2 {
+    font-size: 36px;
+    font-weight: bold;
+    color: #1F2937;
+}
+
+.squares-container {
+    display: flex;
+    margin: 20px;
+    gap: 38px;
+}
+
+.square {
+    border: 3px solid #3882F6;
+    border-radius: 10px;
+    height: 150px;
+    width: 150px;
+}
+
+.subtext-container {
+    display: flex;
+    gap: 30px;
+}
+
+.subtext {
+    width: 165px;
+    text-align: center;
+    color: #60656d;
+    margin-top: 0;
+    margin-bottom: 50px;
+}
+
+/* End of section two */
+
+.section-three {
+    display: flex;
+    flex-direction: column;
+    background-color: #E5E7EB;
+    padding: 70px 250px;
+}
+
+.quote-text {
+    font-size: 36px;
+    font-style: italic;
+    font-weight: 100;
+    color: #1F2937;
+}
+
+.quote-name-container {
+    display: flex;
+    flex-direction: row-reverse;
+    padding-right: 30px;
+}
